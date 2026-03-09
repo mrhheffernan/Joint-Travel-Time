@@ -6,3 +6,9 @@ It's easy to find a driving time calculator online, where you can find how long 
 In this notebook, I demonstrate how to use OpenStreetMap data and transit time estimates to make a simple heatmap to identify optimal regions to hunt for housing to minimize ideal commuting time.
 
 For this simple example, I'll only produce driving time estimates. This can be extended using tools such as the Google Maps API to also produce estimates for public transit.
+
+## Instructions
+To run with `uv` managing the environment, launch Jupyter with
+```
+uv run --with jupyter jupyter notebook
+```
